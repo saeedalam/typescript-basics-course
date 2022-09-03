@@ -36,4 +36,14 @@ git add .
 git commit -m "message"
 git push origin master
 
+git pull origin ....
+
+
+Branchs :
+Create New branch :
+git branch -C add_login_function
+git branch
+
+git checkout add_login_branch
+
 
