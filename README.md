@@ -1,5 +1,11 @@
 # typescript-basics-course
 
+## This is a free Typescript course
+
+### this will be complete soon
+
+### start 4/9/2022
+
 ## Install Node.js
 
 nodejs.org
