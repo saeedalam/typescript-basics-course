@@ -16,6 +16,14 @@
 - let (variable)
 - const (constant)
 - Types of functions params add(a:number , b:number)
+- union
+- object
+- custom types
+- intersection
+- array
+- unknown
+- never
+- litral
 - We have AutoComplete after types
 
 ## Watch

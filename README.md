@@ -56,3 +56,9 @@ git branch -C add_login_function
 git branch
 
 git checkout add_login_branch
+
+# Resources
+
+- https://www.typescripttutorial.net/
+
+- https://www.typescriptlang.org/docs/handbook/intro.html
