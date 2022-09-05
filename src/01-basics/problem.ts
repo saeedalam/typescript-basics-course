@@ -1,8 +1,7 @@
-export const hello = "world"
-
-const addTwoNumbers = (a, b) => {
-    return a + b
+function addTwoNumber(a, b) {
+  let c: number = a + b;
+  return c;
 }
 
-const result = addTwoNumbers(10, 20)
-console.log(result)
+const s = addTwoNumber(10, 20);
+console.log(s);

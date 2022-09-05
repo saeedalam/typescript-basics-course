@@ -1,10 +1,7 @@
-export const hello = "world"
-
-export const addTwoNumbers = (a: number, b: number) => {
-    return a + b
+function addNumbers(a: number, b: number): number {
+  let c: number = a + b;
+  return c;
 }
 
-it("Should return sum of two numbers", () => {
-    const result = addTwoNumbers(10, 20)
-    expect(result).toBe(30)
-})
+const sum = addNumbers(10, 20);
+console.log(sum);

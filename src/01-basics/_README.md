@@ -1,6 +1,6 @@
 # Typescript first tep notes
 
-- Susper set on Javascript
+- Super set on Javascript
 - .js -> .ts
 - npm i typescript
 - tsc --init -> tsconfig.json
@@ -13,6 +13,9 @@
 - number
 - string
 - boolean
+- let (variable)
+- const (constant)
+- Types of functions params add(a:number , b:number)
 - We have AutoComplete after types
 
 ## Watch

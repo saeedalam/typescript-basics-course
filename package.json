@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/index.ts",
-    "start": "tsc --watch && node src/index.ts"
+    "dev": "nodemon src/01-basics/practice.ts",
+    "start": "tsc --watch && node src/index.ts",
+    "salam" : "tsc"
   },
   "keywords": [],
   "author": "",
