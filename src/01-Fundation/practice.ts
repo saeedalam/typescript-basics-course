@@ -36,8 +36,40 @@ const role: UserRole = "admin";
 console.log(isAdmin(role));
 
 // enum
+enum AllUsersRoles {
+  "admin",
+  "user",
+  "super-admin",
+}
+const myRole: AllUsersRoles = AllUsersRoles.admin;
+const myFriendRole: AllUsersRoles = AllUsersRoles.user;
+
+function checkRole(role: AllUsersRoles) {
+  console.log("Role is :", role);
+}
+checkRole(myRole);
+checkRole(myFriendRole);
 
 // object
+type UserType = {
+  firstName: string;
+  lastName: string;
+  age: number;
+  job?: string;
+};
+const user: UserType = {
+  firstName: "Adrian",
+  lastName: "V.Alam",
+  age: Number((5 / 9).toFixed(2)),
+};
+const otherUser: UserType = {
+  firstName: "SAEED",
+  lastName: "V.ALAM",
+  age: 34,
+  job: "Sth",
+};
+console.log("Name = ", user.firstName);
+console.log("Last name =", user["lastName"]);
 
 // intersection
 

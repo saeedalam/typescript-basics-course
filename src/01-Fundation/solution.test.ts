@@ -1,12 +1,12 @@
 import { it, expect, describe } from "vitest";
-
-function addNumbers(a: number, b: number): number {
-  let c: number = a + b;
-  return c;
-}
+import { addNumbers } from "./solution";
 
 describe("TESTS", () => {
   it("Should add two numbers", () => {
     expect(addNumbers(2, 2)).toBe(4);
+  });
+
+  it("Should return error on fail", () => {
+    expect(addNumbers(2, 2)).toBeGreaterThan(3);
   });
 });
