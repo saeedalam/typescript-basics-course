@@ -38,6 +38,9 @@
 ### Jest and Vitest
 
 - npm install -D vitest
+- package.json :  "test": "vitest"
 - it
 - describe
 - expect
+- npm run test
+
