@@ -1,0 +1,1 @@
+https://codesandbox.io/s/jxx2n4pp3?file=/src/Exercise_1_Basic_Types/exercise1.ts
