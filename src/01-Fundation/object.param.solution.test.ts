@@ -1,5 +1,5 @@
 import { expect, it } from "vitest";
-import { addTwoNumbers } from "./problem.object.param";
+import { addTwoNumbers } from "./object.param.problem";
 
 it("Should add the two numbers together", () => {
   expect(

@@ -71,6 +71,9 @@ const otherUser: UserType = {
 console.log("Name = ", user.firstName);
 console.log("Last name =", user["lastName"]);
 
+// Type inference describes where and how TypeScript infers types when you don’t explicitly annotate them.
+// When you declare a variable, you can use a type annotation to explicitly specify a type for it
+
 // intersection
 
 // array

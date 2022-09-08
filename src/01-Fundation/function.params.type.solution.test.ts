@@ -1,5 +1,5 @@
 import { it, expect, describe } from "vitest";
-import { addNumbers } from "./solution";
+import { addNumbers } from "./function.params.type.solution";
 
 describe("TESTS", () => {
   it("Should add two numbers", () => {

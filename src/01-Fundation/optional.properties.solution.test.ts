@@ -1,5 +1,5 @@
 import { expect, it } from "vitest";
-import { getName } from "./problem.optional.properties";
+import { getName } from "./optional.properties.solution";
 
 it("Should work with just the first name", () => {
   const name = getName({
