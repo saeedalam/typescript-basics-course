@@ -74,11 +74,82 @@ console.log("Last name =", user["lastName"]);
 // Type inference describes where and how TypeScript infers types when you don’t explicitly annotate them.
 // When you declare a variable, you can use a type annotation to explicitly specify a type for it
 
+// More on Enum = Numeric Enums
+enum CardinalDirections {
+  North,
+  East,
+  South,
+  West
+}
+let currentDirection = CardinalDirections.North;
+// logs 0
+console.log(currentDirection);
+
+
+// Numeric Enums and init
+enum StatusCodes {
+  NotFound = 404,
+  Success = 200,
+  Accepted = 202,
+  BadRequest = 400
+}
+// logs 404
+console.log(StatusCodes.NotFound);
+
+
+
 // intersection
 
 // array
 
-// litral
+// Tuple
+// A tuple is a typed array with a pre-defined length and types for each index.
+let ourTuple: [number, boolean, string];
+
+// destructing tuples
+const graph: [number, number] = [55.2, 41.3];
+// const [x, y] = graph;
+
+
+// More on Types
+type CarYear = number
+type CarType = string
+type CarModel = string
+type Car = {
+  year: CarYear,
+  type: CarType,
+  model: CarModel
+}
+
+// interfaces
+// Interfaces are similar to type aliases, except they only apply to object types.
+interface Rectangle {
+  height: number,
+  width: number
+}
+
+const rectangle: Rectangle = {
+  height: 20,
+  width: 10
+};
+
+
+
+// extending interface
+interface Rectangle {
+  height: number,
+  width: number
+}
+
+interface ColoredRectangle extends Rectangle {
+  color: string
+}
+
+const coloredRectangle: ColoredRectangle = {
+  height: 20,
+  width: 10,
+  color: "red"
+};
 
 // unknown
 

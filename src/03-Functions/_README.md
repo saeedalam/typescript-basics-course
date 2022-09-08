@@ -2,6 +2,7 @@
 
 - functions
 - void
+- rest parameter
 - unknown
 - never
 - type narrowing
