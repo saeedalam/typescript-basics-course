@@ -12,6 +12,16 @@ console.log(typeof [])
 
 // Array Elements Can Be Objects
 
+// readonly array
+const names: readonly string[] = ["Dylan"];
+names.push("kk")
+
+// type infrence
+const numbers = [1, 2, 3]; // inferred to type number[]
+numbers.push(4); // no error
+// comment line below out to see the successful assignment
+numbers.push("2"); 
+
 // When to Use Arrays. When to use Objects.
 // JavaScript does not support associative arrays.
 // You should use objects when you want the element names to be strings (text).
