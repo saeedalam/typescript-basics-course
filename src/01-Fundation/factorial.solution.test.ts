@@ -1,5 +1,5 @@
 import { it, expect, describe } from "vitest";
-import { factorial } from "./factorial.problem";
+import { factorial } from "./factorial.solution";
 
 it("should calculate factorial of the input", () => {
   expect(factorial(3)).toBe(6);
