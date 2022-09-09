@@ -5,7 +5,8 @@
 - rest parameter
 - unknown
 - never
-- type narrowing
+- type Narrowing
+- The in operator narrowing
 - value vs reference
 - recursive
 - arrow functions

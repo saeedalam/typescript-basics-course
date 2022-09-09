@@ -14,4 +14,20 @@
 - Nullish
 - Optional 
 - Null Assertion
+Intersection Types
+Union Types
+Generic Types
+Utility Types
+Partial
+Required
+Readonly
+Pick
+Omit
+Extract
+Exclude
+Record
+NonNullable
+Mapped Types
+Type Guards
+Conditional Types
 
