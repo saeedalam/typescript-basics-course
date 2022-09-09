@@ -18,3 +18,12 @@
 - lastIndexOf
 - every
 - some
+- Strings
+- split
+- indexOf
+- Replace
+- Trim
+- substr
+- substring
+- toUpperCase
+- toLowerCase
