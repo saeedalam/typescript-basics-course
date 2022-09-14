@@ -1,5 +1,3 @@
-import { type } from "os";
-
 // types
 let number: number;
 number = 10;
@@ -148,8 +146,8 @@ let ourTuple: [number, boolean, string];
 ourTuple = [10, true, "salam"];
 
 // destructing tuples
-// const graph: [number, number] = [55.2, 41.3];
-// const [x, y] = graph;
+const graph: [number, number] = [55.2, 41.3];
+const [ax, ay] = graph;
 
 // More on Types
 type CarYear = number;

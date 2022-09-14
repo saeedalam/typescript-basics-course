@@ -1,1 +1,3 @@
 https://typescript-exercises.github.io/#exercise=4&file=%2Findex.ts
+
+https://www.codewars.com/users/Saeed%20V.Alam/completed_solutions
