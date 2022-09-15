@@ -25,6 +25,8 @@
 - never
 - litral
 - We have AutoComplete after types
+- nullish
+- Optional chaining (?.)
 
 ## Watch
 
@@ -47,4 +49,5 @@
 ## TDD
 
 ## Read more
+
 https://www.typescriptlang.org/docs/handbook/2/everyday-types.html

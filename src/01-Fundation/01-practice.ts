@@ -223,3 +223,8 @@ const secondResult: number = add2Number(1, parseInt(resultAsString));
 const age: number = 34;
 // to string
 const ageStr: string = age.toString(); // String(age)
+
+// nullish check
+const userName = "SAEED";
+const foo = userName ?? "default string";
+console.log(foo);
