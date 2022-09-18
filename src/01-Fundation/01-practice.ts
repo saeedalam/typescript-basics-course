@@ -1,5 +1,3 @@
-import { type } from "os";
-
 // types
 let number: number;
 number = 10;
@@ -148,8 +146,8 @@ let ourTuple: [number, boolean, string];
 ourTuple = [10, true, "salam"];
 
 // destructing tuples
-// const graph: [number, number] = [55.2, 41.3];
-// const [x, y] = graph;
+const graph: [number, number] = [55.2, 41.3];
+const [ax, ay] = graph;
 
 // More on Types
 type CarYear = number;
@@ -225,3 +223,8 @@ const secondResult: number = add2Number(1, parseInt(resultAsString));
 const age: number = 34;
 // to string
 const ageStr: string = age.toString(); // String(age)
+
+// nullish check
+const userName = "SAEED";
+const foo = userName ?? "default string";
+console.log(foo);
