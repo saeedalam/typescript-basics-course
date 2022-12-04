@@ -46,7 +46,7 @@ const myRole: AllUsersRoles = AllUsersRoles.admin;
 const myFriendRole: AllUsersRoles = AllUsersRoles.user;
 
 function checkRole(role: AllUsersRoles) {
-  console.log("Role is :", role);
+  console.log("Role is :", AllUsersRoles[role]);
 }
 checkRole(myRole);
 checkRole(myFriendRole);
