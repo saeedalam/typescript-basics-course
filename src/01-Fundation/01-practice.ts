@@ -3,6 +3,7 @@ let number: number;
 number = 10;
 let anotherNumber: number;
 anotherNumber = 10 * 2;
+let newNumeber = 20 ;
 
 // Primative data type
 let aAnyVar: any;
@@ -29,12 +30,12 @@ let x: myNumbers = 3.234283742;
 
 // Using custom types
 type UserRole = "admin" | "user" | "super-admin";
-function isAdmin(role: UserRole): boolean {
+function isAAdmin(role: UserRole): boolean {
   if (role === "admin") return true;
   return false;
 }
 const role: UserRole = "admin";
-console.log(isAdmin(role));
+console.log(isAAdmin(role));
 
 // enum
 enum AllUsersRoles {

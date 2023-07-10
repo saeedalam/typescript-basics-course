@@ -24,22 +24,22 @@ interface IUser {
   name: string;
 }
 
-type User = {
-  id: number;
-  name: string;
-};
+// type User = {
+//   id: number;
+//   name: string;
+// };
 
-let u: User = {
-  id: 1,
-  name: "Alex",
-};
-let iu: IUser = {
-  id: 2,
-  name: "Name",
-};
-let users: (User | IUser)[];
-users = [u, iu];
-users.push(u);
+// let u: User = {
+//   id: 1,
+//   name: "Alex",
+// };
+// let iu: IUser = {
+//   id: 2,
+//   name: "Name",
+// };
+// let users: (User | IUser)[];
+// users = [u, iu];
+// users.push(u);
 
 // readonly array
 const names: readonly string[] = ["Dylan"];

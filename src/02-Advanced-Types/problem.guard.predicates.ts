@@ -39,4 +39,4 @@ const invoice: Invoice = {
     lineItems: []
 };
 
-isFinalInvoice(invoice);
+console.log(isFinalInvoice(invoice);)
