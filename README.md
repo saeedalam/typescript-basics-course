@@ -2,7 +2,7 @@
 
 ## This is a free Typescript course
 
-### this will be complete soon
+### this will be completed soon
 
 ### start 4/9/2022
 
